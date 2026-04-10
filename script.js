@@ -1,3 +1,4 @@
+
 // Data for Skills
 const skillsData = [
   {
@@ -78,6 +79,26 @@ const skillsData = [
       "Capable of integrating third-party APIs to fetch and display data, enhancing application functionality.",
     icon: "fas fa-code-branch",
   },
+  {
+  icon: "fas fa-pencil-ruler",
+  name: "UI Design",
+  description: "Designing clean, modern and visually appealing user interfaces."
+},
+{
+  icon: "fas fa-user-check",
+  name: "UX Design",
+  description: "Creating user-friendly and intuitive experiences."
+},
+{
+  icon: "fas fa-search",
+  name: "User Research",
+  description: "Understanding user behavior through research and analysis."
+},
+{
+  icon: "fab fa-figma",
+  name: "Figma",
+  description: "Wireframing, prototyping and component-based design."
+}
 ];
 
 // Data for Certifications
@@ -144,18 +165,26 @@ let projects = [
   {
     title: "Image Search WebApp",
     description:
-      "Image Search App: A web app using HTML, CSS, and JS, integrated with Unsplash API to fetch high-quality images based on user search queries, displayed in a responsive and visually appealing gallery.",
+      "Image Search App: A web app using HTML, CSS, and JS, integrated with Unsplash API to fetch high-quality images based on user search queries, displayed in a responsive and visually appealing gallery.",
     link: "https://krishankant1234.github.io/Image-Search-App/",
     imageUrl: "images/ImageApp_iamge.png",
   },
-  //   {
-  //     title: "FoodTime WebApp",
-  //     description:
-  //       "A responsive food ordering website with a clean interface.",
-  //     link: "https://krishankant1234.github.io/Food-ordering-website/",
-  //     imageUrl:
-  //       "https://via.placeholder.com/400x250/FEE715/101820?text=Blog+Platform+Screenshot",
-  //   },
+    {
+      title: "MakeMyNotes",
+      description:
+        "MakeMyNotes is a React-based note-taking app where users can add, edit, save, and view notes with custom headings and content. The app features a clean, component-based design for easy note management and an intuitive, user-friendly interface.",
+      link: "https://make-my-notes.vercel.app/",
+      imageUrl:
+        "images/makemynote_image.png",
+    },
+  {
+      title: "Music app design",
+      description:
+        "A UX case study of a music streaming app focused on improving user experience by minimizing interruptions and enhancing control. The design introduces skippable ads, better music discovery through mood and era, and a streamlined listening flow, along with features like concert booking and listening insights.",
+      link: "https://www.behance.net/gallery/247009331/Designing-a-User-Centric-Music-Streaming-Experience",
+      imageUrl:
+        "images/musicappdesign_image.png",
+    },
 ];
 
 const initialProjectsToShow = 2;
